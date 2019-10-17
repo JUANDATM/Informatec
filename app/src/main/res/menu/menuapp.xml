@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/avisosmenu"
+            android:title="Avisos"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            app:showAsAction="ifRoom"
+    />
+    <item
+            android:id="@+id/credencialmenu"
+            android:title="Credencial"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            app:showAsAction="ifRoom"
+    />
+
+</menu>
