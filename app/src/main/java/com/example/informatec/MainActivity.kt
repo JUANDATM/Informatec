@@ -2,12 +2,16 @@ package com.example.informatec
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -34,6 +38,8 @@ class MainActivity : AppCompatActivity() {
         fragmentTransation.replace(R.id.frame_home,fragment)
         fragmentTransation.commit()
     }
+
+
 
 
 }
